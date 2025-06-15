@@ -41,7 +41,7 @@ import java.util.stream.Collectors;
  */
 @RestController
 @RequestMapping("/team")
-@CrossOrigin(origins = {"http://localhost:3000/"},allowCredentials = "true")
+@CrossOrigin(origins = {"https://yupao-frontend-master-eight.vercel.app"},allowCredentials = "true")
 @Slf4j
 @Api(tags = "队伍接口")
 public class TeamController {
